@@ -1,0 +1,343 @@
+<!-- REPERTUAR – KINO ZA ROGIEM (Marzec 2026) -->
+<div class="moksial-repertuar">
+
+  <style>
+    .moksial-repertuar{max-width:980px;margin:0 auto;padding:0 12px;box-sizing:border-box;clear:both;isolation:isolate}
+    .moksial-repertuar *{box-sizing:border-box}
+    .moksial-repertuar .bar{height:8px;border-radius:6px;margin:0 0 10px;background:linear-gradient(90deg,#E73139 0%,#E4DF00 50%,#079B39 100%)}
+    .moksial-repertuar h2{margin:6px 0 12px;font:700 26px/1.2 Arial,sans-serif}
+    .moksial-repertuar h2 span{background:#079B39;color:#fff;padding:6px 12px;border-radius:10px;display:inline-block}
+    .moksial-repertuar .wrap{border:1px solid #e6e6e6;border-radius:12px;overflow:hidden;background:#fff}
+    .moksial-repertuar table{width:100%;border-collapse:collapse;table-layout:fixed;font:15px Arial,sans-serif}
+    .moksial-repertuar th{background:#079B39;color:#fff;text-align:center;padding:12px}
+    .moksial-repertuar td{vertical-align:top;padding:14px;border-top:1px solid #e6e6e6;word-break:break-word;overflow-wrap:anywhere}
+    .moksial-repertuar td:first-child{width:26%;text-align:center;border-right:1px solid #e6e6e6}
+    .moksial-repertuar tr:nth-child(even){background:#f7f7f7}
+    .moksial-repertuar .date{display:inline-block;padding:6px 10px;border:1px solid #079B39;border-radius:10px;color:#079B39}
+    .moksial-repertuar .poster{width:160px;max-width:100%;aspect-ratio:2/3;border-radius:12px;overflow:hidden;background:#f0f0f0;box-shadow:0 6px 16px rgba(0,0,0,.14);margin:10px auto 0}
+    .moksial-repertuar .poster img{width:100%;height:100%;display:block;object-fit:cover;border:0}
+    .moksial-repertuar .film{border-left:4px solid #E73139}
+    .moksial-repertuar .head{display:flex;gap:10px;align-items:flex-start;justify-content:space-between}
+    .moksial-repertuar .head h3{margin:0;font-size:20px;line-height:1.2;font-weight:700}
+    .moksial-repertuar .badges{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end}
+    .moksial-repertuar .badge{background:#FF9800;color:#fff;padding:3px 10px;border-radius:999px;font-size:12px;font-weight:700;white-space:nowrap}
+    .moksial-repertuar .badge.dkf{background:#1E88E5}
+    .moksial-repertuar .badge.ticket{background:#455A64}
+    .moksial-repertuar .line{height:2px;background:#E73139;margin:8px 0 10px}
+    .moksial-repertuar .line.dkf{background:#1E88E5}
+    .moksial-repertuar p{margin:2px 0}
+    .moksial-repertuar strong{color:#079B39}
+    .moksial-repertuar .desc{margin:10px 0 0;font-size:13px;color:#555;line-height:1.4}
+    @media (max-width:720px){
+      .moksial-repertuar table,.moksial-repertuar thead,.moksial-repertuar tbody,.moksial-repertuar th,.moksial-repertuar tr,.moksial-repertuar td{display:block;width:100%}
+      .moksial-repertuar thead{display:none}
+      .moksial-repertuar td:first-child{border-right:0;border-bottom:1px solid #e6e6e6}
+      .moksial-repertuar .film{border-left:0}
+    }
+  </style>
+
+  <div class="bar"></div>
+  <h2><span>Repertuar – Kino Za Rogiem (Marzec 2026)</span></h2>
+
+  <div class="wrap">
+    <table>
+      <thead>
+        <tr><th>DATA</th><th>FILM</th></tr>
+      </thead>
+      <tbody>
+
+<!-- 1 DKF -->
+<tr>
+<td>
+<div class="date">06.03.2026</div><br>godz. 15:30
+<div class="poster"><img src="images/wesele.jpg" alt="Plakat: DKF Wesele" loading="lazy"></div>
+</td>
+<td class="film">
+<div class="head">
+<h3>DKF Wesele</h3>
+<div class="badges">
+<span class="badge dkf">DKF</span>
+<span class="badge ticket">Bilet: 15 zł</span>
+<span class="badge">Wiek: 13+</span>
+</div>
+</div>
+<div class="line dkf"></div>
+<p><strong>Rok produkcji:</strong> 1972</p>
+<p><strong>Rodzaj:</strong> Fabularny</p>
+<p><strong>Gatunek:</strong> Dramat</p>
+<p><strong>Produkcja:</strong> Polska</p>
+<p><strong>Reżyseria:</strong> Wajda Andrzej</p>
+<p><strong>Czas trwania:</strong> 102 min</p>
+</td>
+</tr>
+
+<!-- 2 -->
+<tr>
+<td>
+<div class="date">06.03.2026</div><br>godz. 18:00
+<div class="poster"><img src="images/krajobraz-po-bitwie.jpg" alt="Plakat: Krajobraz po bitwie" loading="lazy"></div>
+</td>
+<td class="film">
+<div class="head">
+<h3>Krajobraz po bitwie</h3>
+<div class="badges"><span class="badge">Wiek: 16+</span></div>
+</div>
+<div class="line"></div>
+<p><strong>Rok produkcji:</strong> 1970</p>
+<p><strong>Rodzaj:</strong> Fabularny</p>
+<p><strong>Gatunek:</strong> Dramat, Psychologiczny</p>
+<p><strong>Produkcja:</strong> Polska</p>
+<p><strong>Reżyseria:</strong> Wajda Andrzej</p>
+<p><strong>Czas trwania:</strong> 105 min</p>
+</td>
+</tr>
+
+<!-- 3 -->
+<tr>
+<td>
+<div class="date">07.03.2026</div><br>godz. 14:00
+<div class="poster"><img src="images/fantastyczny-angelo.jpg" alt="Plakat: Fantastyczny Angelo" loading="lazy"></div>
+</td>
+<td class="film">
+<div class="head">
+<h3>Fantastyczny Angelo</h3>
+<div class="badges"><span class="badge">Wiek: 7+</span></div>
+</div>
+<div class="line"></div>
+<p><strong>Rok produkcji:</strong> 2024</p>
+<p><strong>Rodzaj:</strong> Fabularny animowany</p>
+<p><strong>Gatunek:</strong> Film dla dzieci</p>
+<p><strong>Produkcja:</strong> Francja, Luksemburg</p>
+<p><strong>Czas trwania:</strong> 84 min</p>
+</td>
+</tr>
+
+<!-- 4 -->
+<tr>
+<td>
+<div class="date">07.03.2026</div><br>godz. 18:00
+<div class="poster"><img src="images/the-last-showgirl.jpg" alt="Plakat: The Last Showgirl" loading="lazy"></div>
+</td>
+<td class="film">
+<div class="head">
+<h3>The Last Showgirl</h3>
+<div class="badges"><span class="badge">Wiek: 16+</span></div>
+</div>
+<div class="line"></div>
+<p><strong>Rok produkcji:</strong> 2024</p>
+<p><strong>Rodzaj:</strong> Fabularny</p>
+<p><strong>Gatunek:</strong> Dramat</p>
+<p><strong>Produkcja:</strong> USA</p>
+<p><strong>Czas trwania:</strong> 89 min</p>
+</td>
+</tr>
+
+<!-- 5 -->
+<tr>
+<td>
+<div class="date">13.03.2026</div><br>godz. 18:00
+<div class="poster"><img src="images/obietnica-poranka.jpg" alt="Plakat: Obietnica poranka" loading="lazy"></div>
+</td>
+<td class="film">
+<div class="head">
+<h3>Obietnica poranka</h3>
+<div class="badges"><span class="badge">Wiek: 18+</span></div>
+</div>
+<div class="line"></div>
+<p><strong>Rok produkcji:</strong> 2017</p>
+<p><strong>Rodzaj:</strong> Fabularny</p>
+<p><strong>Gatunek:</strong> Biograficzny</p>
+<p><strong>Produkcja:</strong> Francja</p>
+<p><strong>Czas trwania:</strong> 131 min</p>
+</td>
+</tr>
+
+<!-- 6 -->
+<tr>
+<td>
+<div class="date">14.03.2026</div><br>godz. 14:00
+<div class="poster"><img src="images/skrzat-nowy-poczatek.jpg" alt="Plakat: Skrzat. Nowy początek" loading="lazy"></div>
+</td>
+<td class="film">
+<div class="head">
+<h3>Skrzat. Nowy początek</h3>
+<div class="badges"><span class="badge">Wiek: 7+</span></div>
+</div>
+<div class="line"></div>
+<p><strong>Rok produkcji:</strong> 2025</p>
+<p><strong>Rodzaj:</strong> Fabularny</p>
+<p><strong>Gatunek:</strong> Familijny</p>
+<p><strong>Produkcja:</strong> Czechy, Polska</p>
+<p><strong>Czas trwania:</strong> 99 min</p>
+</td>
+</tr>
+
+<!-- 7 -->
+<tr>
+<td>
+<div class="date">14.03.2026</div><br>godz. 18:00
+<div class="poster"><img src="images/mars-express.jpg" alt="Plakat: Mars express" loading="lazy"></div>
+</td>
+<td class="film">
+<div class="head">
+<h3>Mars express. Świat, który nadejdzie</h3>
+<div class="badges"><span class="badge">Wiek: 16+</span></div>
+</div>
+<div class="line"></div>
+<p><strong>Rok produkcji:</strong> 2023</p>
+<p><strong>Rodzaj:</strong> Fabularny animowany</p>
+<p><strong>Gatunek:</strong> Science fiction, Thriller</p>
+<p><strong>Produkcja:</strong> Francja</p>
+<p><strong>Czas trwania:</strong> 89 min</p>
+</td>
+</tr>
+
+<!-- 8 DKF -->
+<tr>
+<td>
+<div class="date">20.03.2026</div><br>godz. 15:30
+<div class="poster"><img src="images/jedno-zycie.jpg" alt="Plakat: Jedno życie" loading="lazy"></div>
+</td>
+<td class="film">
+<div class="head">
+<h3>Jedno życie</h3>
+<div class="badges">
+<span class="badge dkf">DKF</span>
+<span class="badge ticket">Bilet: 15 zł</span>
+<span class="badge">Wiek: 15+</span>
+</div>
+</div>
+<div class="line dkf"></div>
+<p><strong>Rok produkcji:</strong> 2023</p>
+<p><strong>Rodzaj:</strong> Fabularny</p>
+<p><strong>Gatunek:</strong> Biograficzny, Dramat, Wojenny</p>
+<p><strong>Produkcja:</strong> Wielka Brytania</p>
+<p><strong>Czas trwania:</strong> 105 min</p>
+</td>
+</tr>
+
+<!-- 9 -->
+<tr>
+<td>
+<div class="date">20.03.2026</div><br>godz. 18:00
+<div class="poster"><img src="images/saint-exupery.jpg" alt="Plakat: Saint-Exupery" loading="lazy"></div>
+</td>
+<td class="film">
+<div class="head">
+<h3>Saint-Exupery. Zanim powstał mały książę</h3>
+<div class="badges"><span class="badge">Wiek: 15+</span></div>
+</div>
+<div class="line"></div>
+<p><strong>Rok produkcji:</strong> 2024</p>
+<p><strong>Rodzaj:</strong> Fabularny</p>
+<p><strong>Gatunek:</strong> Biograficzny, Dramat</p>
+<p><strong>Produkcja:</strong> Belgia, Francja</p>
+<p><strong>Czas trwania:</strong> 94 min</p>
+</td>
+</tr>
+
+<!-- 10 -->
+<tr>
+<td>
+<div class="date">21.03.2026</div><br>godz. 14:00
+<div class="poster"><img src="images/kayara.jpg" alt="Plakat: Kayara niepokonana" loading="lazy"></div>
+</td>
+<td class="film">
+<div class="head">
+<h3>Kayara niepokonana</h3>
+<div class="badges"><span class="badge">Wiek: 7+</span></div>
+</div>
+<div class="line"></div>
+<p><strong>Rok produkcji:</strong> 2025</p>
+<p><strong>Rodzaj:</strong> Fabularny animowany</p>
+<p><strong>Produkcja:</strong> Hiszpania, Peru</p>
+<p><strong>Czas trwania:</strong> 78 min</p>
+</td>
+</tr>
+
+<!-- 11 -->
+<tr>
+<td>
+<div class="date">21.03.2026</div><br>godz. 18:00
+<div class="poster"><img src="images/konklawe.jpg" alt="Plakat: Konklawe" loading="lazy"></div>
+</td>
+<td class="film">
+<div class="head">
+<h3>Konklawe</h3>
+<div class="badges"><span class="badge">Wiek: 15+</span></div>
+</div>
+<div class="line"></div>
+<p><strong>Rok produkcji:</strong> 2024</p>
+<p><strong>Rodzaj:</strong> Fabularny</p>
+<p><strong>Gatunek:</strong> Dramat, Thriller</p>
+<p><strong>Produkcja:</strong> USA, Wielka Brytania</p>
+<p><strong>Czas trwania:</strong> 115 min</p>
+</td>
+</tr>
+
+<!-- 12 -->
+<tr>
+<td>
+<div class="date">27.03.2026</div><br>godz. 18:00
+<div class="poster"><img src="images/larp.jpg" alt="Plakat: LARP" loading="lazy"></div>
+</td>
+<td class="film">
+<div class="head">
+<h3>LARP. Miłość, trolle i inne questy</h3>
+<div class="badges"><span class="badge">Wiek: 15+</span></div>
+</div>
+<div class="line"></div>
+<p><strong>Rok produkcji:</strong> 2025</p>
+<p><strong>Rodzaj:</strong> Fabularny</p>
+<p><strong>Produkcja:</strong> Polska</p>
+<p><strong>Czas trwania:</strong> 94 min</p>
+</td>
+</tr>
+
+<!-- 13 -->
+<tr>
+<td>
+<div class="date">28.03.2026</div><br>godz. 14:00
+<div class="poster"><img src="images/heidi.jpg" alt="Plakat: Heidi ratuje rysia" loading="lazy"></div>
+</td>
+<td class="film">
+<div class="head">
+<h3>Heidi ratuje rysia</h3>
+<div class="badges"><span class="badge">Wiek: 7+</span></div>
+</div>
+<div class="line"></div>
+<p><strong>Rok produkcji:</strong> 2025</p>
+<p><strong>Rodzaj:</strong> Fabularny animowany</p>
+<p><strong>Produkcja:</strong> Belgia, Hiszpania, Niemcy</p>
+<p><strong>Czas trwania:</strong> 76 min</p>
+</td>
+</tr>
+
+<!-- 14 -->
+<tr>
+<td>
+<div class="date">28.03.2026</div><br>godz. 18:00
+<div class="poster"><img src="images/podrabiani-zakochani.jpg" alt="Plakat: Podrabiani zakochani" loading="lazy"></div>
+</td>
+<td class="film">
+<div class="head">
+<h3>Podrabiani zakochani</h3>
+<div class="badges"><span class="badge">Wiek: 16+</span></div>
+</div>
+<div class="line"></div>
+<p><strong>Rok produkcji:</strong> 2023</p>
+<p><strong>Rodzaj:</strong> Fabularny</p>
+<p><strong>Produkcja:</strong> USA</p>
+<p><strong>Czas trwania:</strong> 89 min</p>
+</td>
+</tr>
+
+</tbody>
+    </table>
+  </div>
+
+  <!-- TWARDY KONIEC: zabezpieczenie, żeby nic poniżej nie łapało stylów / układu -->
+  <div style="all:initial;display:block;clear:both;height:0;"></div>
+
+</div>
+<!-- /REPERTUAR -->
