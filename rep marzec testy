@@ -1,0 +1,623 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Repertuar – Kino Za Rogiem (Marzec 2026)</title>
+
+  <style>
+    :root{
+      --green:#0a8f2a;
+      --green2:#0b7f25;
+      --red:#e53935;
+      --bg:#ffffff;
+      --muted:#666;
+    }
+
+    body{margin:0;font-family:Arial, Helvetica, sans-serif;background:var(--bg);color:#111;}
+    .moksial-repertuar{max-width:1100px;margin:0 auto;padding:12px;box-sizing:border-box;}
+    .bar{height:8px;border-radius:999px;margin:6px 0 14px 0;background:linear-gradient(90deg,#e53935 0%, #fdd835 50%, #0a8f2a 100%);}
+    h2{margin:0 0 12px 0;font-size:28px;line-height:1.1;}
+    h2 span{background:var(--green);color:#fff;padding:8px 12px;border-radius:12px;display:inline-block;}
+
+    .wrap{border:1px solid #e6e6e6;border-radius:14px;overflow:hidden;}
+    table{width:100%;border-collapse:collapse;font-size:14px;}
+    thead th{background:var(--green);color:#fff;text-align:center;padding:14px;font-size:15px;}
+    tbody td{vertical-align:top;padding:16px;border-top:1px solid #eaeaea;}
+    tbody tr:nth-child(even){background:#fafafa;}
+
+    .datecol{width:34%;text-align:center;}
+    .datepill{display:inline-block;padding:6px 12px;border:1px solid var(--green);border-radius:999px;color:var(--green2);font-weight:700;margin-bottom:6px;}
+    .time{font-size:16px;font-weight:700;}
+    .dkfTag{display:inline-block;margin-top:10px;background:#111;color:#fff;border-radius:999px;padding:6px 10px;font-weight:700;font-size:12px;}
+
+    .filmcol{border-left:4px solid var(--red);}
+    .head{display:flex;gap:10px;justify-content:space-between;align-items:flex-start;}
+    .head h3{margin:0;font-size:22px;line-height:1.15;}
+    .badges{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end;}
+    .badge{background:#ff9800;color:#fff;padding:4px 10px;border-radius:999px;font-weight:700;font-size:12px;white-space:nowrap;}
+    .line{height:2px;background:var(--red);margin:10px 0 12px;}
+    p{margin:4px 0;}
+    strong{color:var(--green2);}
+
+    /* UKŁAD: opis + okładka po prawej */
+    .filmgrid{
+      display:grid;
+      grid-template-columns: 1fr 180px;
+      gap:20px;
+      align-items:start;
+    }
+    .poster-right{
+      width:180px;
+      aspect-ratio:2/3;
+      object-fit:cover;
+      border-radius:14px;
+      box-shadow:0 8px 18px rgba(0,0,0,.18);
+      background:#eee;
+    }
+    .posterHint{font-size:12px;color:var(--muted);margin-top:6px;}
+
+    @media (max-width: 820px){
+      .moksial-repertuar{padding:10px;}
+      .filmgrid{grid-template-columns:1fr;}
+      .poster-right{width:160px;}
+      thead{display:none;}
+      table, tbody, tr, td{display:block;width:100%;}
+      .filmcol{border-left:none;border-top:4px solid var(--red);}
+      .datecol{text-align:left;}
+    }
+  </style>
+</head>
+
+<body>
+  <div class="moksial-repertuar">
+    <div class="bar"></div>
+    <h2><span>Repertuar – Kino Za Rogiem (Marzec 2026)</span></h2>
+
+    <div class="wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>DATA</th>
+            <th>FILM</th>
+          </tr>
+        </thead>
+
+        <tbody>
+
+          <!-- 06.03.2026 15:30 DKF - Wesele -->
+          <tr>
+            <td class="datecol">
+              <div class="datepill">06.03.2026</div><br>
+              <div class="time">godz. 15:30</div>
+              <div class="dkfTag">DKF</div>
+            </td>
+
+            <td class="filmcol">
+              <div class="filmgrid">
+                <div>
+                  <div class="head">
+                    <h3>Wesele</h3>
+                    <div class="badges">
+                      <span class="badge">Wiek: 13+</span>
+                    </div>
+                  </div>
+                  <div class="line"></div>
+
+                  <p><strong>Rok produkcji:</strong> 1972</p>
+                  <p><strong>Rodzaj:</strong> Fabularny</p>
+                  <p><strong>Gatunek:</strong> Dramat</p>
+                  <p><strong>Produkcja:</strong> Polska</p>
+                  <p><strong>Reżyseria:</strong> Wajda Andrzej</p>
+                  <p><strong>Obsada:</strong> Andrzej Łapicki, Bożena Dykiel, Daniel Olbrychski, Ewa Ziętek, Franciszek Pieczka, Kazimierz Opaliński, Maja Komorowska, Marek Walczewski, Wojciech Pszoniak</p>
+                  <p><strong>Dystrybutor:</strong> WFDiF</p>
+                  <p><strong>Czas trwania:</strong> 102 min</p>
+                </div>
+
+                <div>
+                  <a href="img/wesele.jpg" target="_blank" rel="noopener">
+                    <img class="poster-right" src="img/wesele.jpg" alt="Plakat filmu Wesele" loading="lazy">
+                  </a>
+                  <div class="posterHint">Plik: <b>wesele.jpg</b></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+
+          <!-- 06.03.2026 18:00 - Krajobraz po bitwie -->
+          <tr>
+            <td class="datecol">
+              <div class="datepill">06.03.2026</div><br>
+              <div class="time">godz. 18:00</div>
+            </td>
+
+            <td class="filmcol">
+              <div class="filmgrid">
+                <div>
+                  <div class="head">
+                    <h3>Krajobraz po bitwie</h3>
+                    <div class="badges">
+                      <span class="badge">Wiek: 16</span>
+                    </div>
+                  </div>
+                  <div class="line"></div>
+
+                  <p><strong>Rok produkcji:</strong> 1970</p>
+                  <p><strong>Rodzaj:</strong> Fabularny</p>
+                  <p><strong>Gatunek:</strong> Dramat, Psychologiczny</p>
+                  <p><strong>Produkcja:</strong> Polska</p>
+                  <p><strong>Reżyseria:</strong> Wajda Andrzej</p>
+                  <p><strong>Obsada:</strong> Agnieszka Fitkau, Aleksander Bardini, Daniel Olbrychski, Leszek Melchior Drogosz, Stanisława Celińska, Tadeusz Janczar, Zygmunt Malanowicz</p>
+                  <p><strong>Dystrybutor:</strong> WFDiF</p>
+                  <p><strong>Czas trwania:</strong> 105 min</p>
+                </div>
+
+                <div>
+                  <a href="img/krajobraz-po-bitwie.jpg" target="_blank" rel="noopener">
+                    <img class="poster-right" src="img/krajobraz-po-bitwie.jpg" alt="Plakat filmu Krajobraz po bitwie" loading="lazy">
+                  </a>
+                  <div class="posterHint">Plik: <b>krajobraz-po-bitwie.jpg</b></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+
+          <!-- 07.03.2026 14:00 - Fantastyczny Angelo -->
+          <tr>
+            <td class="datecol">
+              <div class="datepill">07.03.2026</div><br>
+              <div class="time">godz. 14:00</div>
+            </td>
+
+            <td class="filmcol">
+              <div class="filmgrid">
+                <div>
+                  <div class="head">
+                    <h3>Fantastyczny Angelo</h3>
+                    <div class="badges">
+                      <span class="badge">Wiek: 7</span>
+                    </div>
+                  </div>
+                  <div class="line"></div>
+
+                  <p><strong>Rok produkcji:</strong> 2024</p>
+                  <p><strong>Rodzaj:</strong> Fabularny animowany</p>
+                  <p><strong>Gatunek:</strong> Film dla dzieci</p>
+                  <p><strong>Produkcja:</strong> Francja, Luksemburg</p>
+                  <p><strong>Reżyseria:</strong> Vincent Parronaud</p>
+                  <p><strong>Dystrybutor:</strong> Stowarzyszenie Nowe Horyzonty</p>
+                  <p><strong>Czas trwania:</strong> 84 min</p>
+                </div>
+
+                <div>
+                  <a href="img/fantastyczny-angelo.jpg" target="_blank" rel="noopener">
+                    <img class="poster-right" src="img/fantastyczny-angelo.jpg" alt="Plakat filmu Fantastyczny Angelo" loading="lazy">
+                  </a>
+                  <div class="posterHint">Plik: <b>fantastyczny-angelo.jpg</b></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+
+          <!-- 07.03.2026 18:00 - The Last Showgirl -->
+          <tr>
+            <td class="datecol">
+              <div class="datepill">07.03.2026</div><br>
+              <div class="time">godz. 18:00</div>
+            </td>
+
+            <td class="filmcol">
+              <div class="filmgrid">
+                <div>
+                  <div class="head">
+                    <h3>The Last Showgirl</h3>
+                    <div class="badges">
+                      <span class="badge">Wiek: 16</span>
+                    </div>
+                  </div>
+                  <div class="line"></div>
+
+                  <p><strong>Rok produkcji:</strong> 2024</p>
+                  <p><strong>Rodzaj:</strong> Fabularny</p>
+                  <p><strong>Gatunek:</strong> Dramat</p>
+                  <p><strong>Produkcja:</strong> USA</p>
+                  <p><strong>Reżyseria:</strong> Coppola Gia</p>
+                  <p><strong>Obsada:</strong> Brenda Song, Dave Bautista, Jamie Lee Curtis, Kiernan Shipka, Pamela Anderson</p>
+                  <p><strong>Dystrybutor:</strong> GUTEK FILM</p>
+                  <p><strong>Czas trwania:</strong> 89 min</p>
+                </div>
+
+                <div>
+                  <a href="img/the-last-showgirl.jpg" target="_blank" rel="noopener">
+                    <img class="poster-right" src="img/the-last-showgirl.jpg" alt="Plakat filmu The Last Showgirl" loading="lazy">
+                  </a>
+                  <div class="posterHint">Plik: <b>the-last-showgirl.jpg</b></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+
+          <!-- 13.03.2026 18:00 - Obietnica poranka -->
+          <tr>
+            <td class="datecol">
+              <div class="datepill">13.03.2026</div><br>
+              <div class="time">godz. 18:00</div>
+            </td>
+
+            <td class="filmcol">
+              <div class="filmgrid">
+                <div>
+                  <div class="head">
+                    <h3>Obietnica poranka</h3>
+                    <div class="badges">
+                      <span class="badge">Wiek: 18</span>
+                    </div>
+                  </div>
+                  <div class="line"></div>
+
+                  <p><strong>Rok produkcji:</strong> 2017</p>
+                  <p><strong>Rodzaj:</strong> Fabularny</p>
+                  <p><strong>Gatunek:</strong> Biograficzny</p>
+                  <p><strong>Produkcja:</strong> Francja</p>
+                  <p><strong>Reżyseria:</strong> Barbier Eric</p>
+                  <p><strong>Dystrybutor:</strong> Aurora Films</p>
+                  <p><strong>Czas trwania:</strong> 131 min</p>
+                </div>
+
+                <div>
+                  <a href="img/obietnica-poranka.jpg" target="_blank" rel="noopener">
+                    <img class="poster-right" src="img/obietnica-poranka.jpg" alt="Plakat filmu Obietnica poranka" loading="lazy">
+                  </a>
+                  <div class="posterHint">Plik: <b>obietnica-poranka.jpg</b></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+
+          <!-- 14.03.2026 14:00 - Skrzat. Nowy początek -->
+          <tr>
+            <td class="datecol">
+              <div class="datepill">14.03.2026</div><br>
+              <div class="time">godz. 14:00</div>
+            </td>
+
+            <td class="filmcol">
+              <div class="filmgrid">
+                <div>
+                  <div class="head">
+                    <h3>Skrzat. Nowy początek</h3>
+                    <div class="badges">
+                      <span class="badge">Wiek: 7</span>
+                    </div>
+                  </div>
+                  <div class="line"></div>
+
+                  <p><strong>Rok produkcji:</strong> 2025</p>
+                  <p><strong>Rodzaj:</strong> Fabularny</p>
+                  <p><strong>Gatunek:</strong> Familijny, Film dla dzieci</p>
+                  <p><strong>Produkcja:</strong> Czechy, Polska</p>
+                  <p><strong>Reżyseria:</strong> Krzysztof Komander</p>
+                  <p><strong>Obsada:</strong> Amelia Golda, Arkadiusz Jakubik, Maksymilian Zieliński, Natalia Komander</p>
+                  <p><strong>Dystrybutor:</strong> Next Film</p>
+                  <p><strong>Czas trwania:</strong> 99 min</p>
+                </div>
+
+                <div>
+                  <a href="img/skrzat-nowy-poczatek.jpg" target="_blank" rel="noopener">
+                    <img class="poster-right" src="img/skrzat-nowy-poczatek.jpg" alt="Plakat filmu Skrzat. Nowy początek" loading="lazy">
+                  </a>
+                  <div class="posterHint">Plik: <b>skrzat-nowy-poczatek.jpg</b></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+
+          <!-- 14.03.2026 18:00 - Mars express. Świat, który nadejdzie -->
+          <tr>
+            <td class="datecol">
+              <div class="datepill">14.03.2026</div><br>
+              <div class="time">godz. 18:00</div>
+            </td>
+
+            <td class="filmcol">
+              <div class="filmgrid">
+                <div>
+                  <div class="head">
+                    <h3>Mars express. Świat, który nadejdzie</h3>
+                    <div class="badges">
+                      <span class="badge">Wiek: 16</span>
+                    </div>
+                  </div>
+                  <div class="line"></div>
+
+                  <p><strong>Rok produkcji:</strong> 2023</p>
+                  <p><strong>Rodzaj:</strong> Fabularny animowany</p>
+                  <p><strong>Gatunek:</strong> Science fiction, Thriller</p>
+                  <p><strong>Produkcja:</strong> Francja</p>
+                  <p><strong>Reżyseria:</strong> Perin Jeremie</p>
+                  <p><strong>Dystrybutor:</strong> GUTEK FILM</p>
+                  <p><strong>Czas trwania:</strong> 89 min</p>
+                </div>
+
+                <div>
+                  <a href="img/mars-express-swiat-ktory-nadejdzie.jpg" target="_blank" rel="noopener">
+                    <img class="poster-right" src="img/mars-express-swiat-ktory-nadejdzie.jpg" alt="Plakat filmu Mars express. Świat, który nadejdzie" loading="lazy">
+                  </a>
+                  <div class="posterHint">Plik: <b>mars-express-swiat-ktory-nadejdzie.jpg</b></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+
+          <!-- 20.03.2026 15:30 DKF - Jedno życie -->
+          <tr>
+            <td class="datecol">
+              <div class="datepill">20.03.2026</div><br>
+              <div class="time">godz. 15:30</div>
+              <div class="dkfTag">DKF</div>
+            </td>
+
+            <td class="filmcol">
+              <div class="filmgrid">
+                <div>
+                  <div class="head">
+                    <h3>Jedno życie</h3>
+                    <div class="badges">
+                      <span class="badge">Wiek: 15+</span>
+                    </div>
+                  </div>
+                  <div class="line"></div>
+
+                  <p><strong>Rok produkcji:</strong> 2023</p>
+                  <p><strong>Rodzaj:</strong> Fabularny</p>
+                  <p><strong>Gatunek:</strong> Biograficzny, Dramat, Wojenny</p>
+                  <p><strong>Produkcja:</strong> Wielka Brytania</p>
+                  <p><strong>Reżyseria:</strong> James Hawes</p>
+                  <p><strong>Obsada:</strong> Anthony Hopkins, Helena Bonham Carter, Johnny Flynn, Lena Olin</p>
+                  <p><strong>Dystrybutor:</strong> Monolith Films</p>
+                  <p><strong>Czas trwania:</strong> 105 min</p>
+                </div>
+
+                <div>
+                  <a href="img/jedno-zycie.jpg" target="_blank" rel="noopener">
+                    <img class="poster-right" src="img/jedno-zycie.jpg" alt="Plakat filmu Jedno życie" loading="lazy">
+                  </a>
+                  <div class="posterHint">Plik: <b>jedno-zycie.jpg</b></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+
+          <!-- 20.03.2026 18:00 - Saint-Exupery. Zanim powstał mały książę -->
+          <tr>
+            <td class="datecol">
+              <div class="datepill">20.03.2026</div><br>
+              <div class="time">godz. 18:00</div>
+            </td>
+
+            <td class="filmcol">
+              <div class="filmgrid">
+                <div>
+                  <div class="head">
+                    <h3>Saint-Exupery. Zanim powstał mały książę</h3>
+                    <div class="badges">
+                      <span class="badge">Wiek: 15+</span>
+                    </div>
+                  </div>
+                  <div class="line"></div>
+
+                  <p><strong>Rok produkcji:</strong> 2024</p>
+                  <p><strong>Rodzaj:</strong> Fabularny</p>
+                  <p><strong>Gatunek:</strong> Biograficzny, Dramat</p>
+                  <p><strong>Produkcja:</strong> Belgia, Francja</p>
+                  <p><strong>Reżyseria:</strong> Aguero Pablo</p>
+                  <p><strong>Obsada:</strong> Benoit Magimel, Diane Kruger, Louis Garrel, Vincent Cassel</p>
+                  <p><strong>Dystrybutor:</strong> Kino Świat</p>
+                  <p><strong>Czas trwania:</strong> 94 min</p>
+                </div>
+
+                <div>
+                  <a href="img/saint-exupery-zanim-powstal-maly-ksiaze.jpg" target="_blank" rel="noopener">
+                    <img class="poster-right" src="img/saint-exupery-zanim-powstal-maly-ksiaze.jpg" alt="Plakat filmu Saint-Exupery. Zanim powstał mały książę" loading="lazy">
+                  </a>
+                  <div class="posterHint">Plik: <b>saint-exupery-zanim-powstal-maly-ksiaze.jpg</b></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+
+          <!-- 21.03.2026 14:00 - Kayara niepokonana -->
+          <tr>
+            <td class="datecol">
+              <div class="datepill">21.03.2026</div><br>
+              <div class="time">godz. 14:00</div>
+            </td>
+
+            <td class="filmcol">
+              <div class="filmgrid">
+                <div>
+                  <div class="head">
+                    <h3>Kayara niepokonana</h3>
+                    <div class="badges">
+                      <span class="badge">Wiek: 7</span>
+                    </div>
+                  </div>
+                  <div class="line"></div>
+
+                  <p><strong>Rok produkcji:</strong> 2025</p>
+                  <p><strong>Rodzaj:</strong> Fabularny animowany</p>
+                  <p><strong>Gatunek:</strong> Film dla dzieci</p>
+                  <p><strong>Produkcja:</strong> Hiszpania, Peru</p>
+                  <p><strong>Reżyseria:</strong> Cesar Zelada</p>
+                  <p><strong>Dystrybutor:</strong> Kino Świat</p>
+                  <p><strong>Czas trwania:</strong> 78 min</p>
+                </div>
+
+                <div>
+                  <a href="img/kayara-niepokonana.jpg" target="_blank" rel="noopener">
+                    <img class="poster-right" src="img/kayara-niepokonana.jpg" alt="Plakat filmu Kayara niepokonana" loading="lazy">
+                  </a>
+                  <div class="posterHint">Plik: <b>kayara-niepokonana.jpg</b></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+
+          <!-- 21.03.2026 18:00 - Konklawe -->
+          <tr>
+            <td class="datecol">
+              <div class="datepill">21.03.2026</div><br>
+              <div class="time">godz. 18:00</div>
+            </td>
+
+            <td class="filmcol">
+              <div class="filmgrid">
+                <div>
+                  <div class="head">
+                    <h3>Konklawe</h3>
+                    <div class="badges">
+                      <span class="badge">Wiek: 15+</span>
+                    </div>
+                  </div>
+                  <div class="line"></div>
+
+                  <p><strong>Rok produkcji:</strong> 2024</p>
+                  <p><strong>Rodzaj:</strong> Fabularny</p>
+                  <p><strong>Gatunek:</strong> Dramat, Thriller</p>
+                  <p><strong>Produkcja:</strong> USA, Wielka Brytania</p>
+                  <p><strong>Reżyseria:</strong> Berger Edward</p>
+                  <p><strong>Obsada:</strong> Isabella Rossellini, John Lithgow, Ralph Fiennes, Stanley Tucci</p>
+                  <p><strong>Dystrybutor:</strong> Monolith Films</p>
+                  <p><strong>Czas trwania:</strong> 115 min</p>
+                </div>
+
+                <div>
+                  <a href="img/konklawe.jpg" target="_blank" rel="noopener">
+                    <img class="poster-right" src="img/konklawe.jpg" alt="Plakat filmu Konklawe" loading="lazy">
+                  </a>
+                  <div class="posterHint">Plik: <b>konklawe.jpg</b></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+
+          <!-- 27.03.2026 18:00 - LARP. Miłość, trolle i inne questy -->
+          <tr>
+            <td class="datecol">
+              <div class="datepill">27.03.2026</div><br>
+              <div class="time">godz. 18:00</div>
+            </td>
+
+            <td class="filmcol">
+              <div class="filmgrid">
+                <div>
+                  <div class="head">
+                    <h3>LARP. Miłość, trolle i inne questy</h3>
+                    <div class="badges">
+                      <span class="badge">Wiek: 15+</span>
+                    </div>
+                  </div>
+                  <div class="line"></div>
+
+                  <p><strong>Rok produkcji:</strong> 2025</p>
+                  <p><strong>Rodzaj:</strong> Fabularny</p>
+                  <p><strong>Gatunek:</strong> Komedia</p>
+                  <p><strong>Produkcja:</strong> Polska</p>
+                  <p><strong>Reżyseria:</strong> Kordian Kądziela</p>
+                  <p><strong>Obsada:</strong> Andrzej Konopka, Bartłomiej Topa, Filip Zaręba, Maciej Bisiorek, Martyna Byczkowska</p>
+                  <p><strong>Dystrybutor:</strong> Mówi Serwis Sp. z o.o. SK</p>
+                  <p><strong>Czas trwania:</strong> 94 min</p>
+                </div>
+
+                <div>
+                  <a href="img/larp-milosc-trolle-i-inne-questy.jpg" target="_blank" rel="noopener">
+                    <img class="poster-right" src="img/larp-milosc-trolle-i-inne-questy.jpg" alt="Plakat filmu LARP. Miłość, trolle i inne questy" loading="lazy">
+                  </a>
+                  <div class="posterHint">Plik: <b>larp-milosc-trolle-i-inne-questy.jpg</b></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+
+          <!-- 28.03.2026 14:00 - Heidi ratuje rysia -->
+          <tr>
+            <td class="datecol">
+              <div class="datepill">28.03.2026</div><br>
+              <div class="time">godz. 14:00</div>
+            </td>
+
+            <td class="filmcol">
+              <div class="filmgrid">
+                <div>
+                  <div class="head">
+                    <h3>Heidi ratuje rysia</h3>
+                    <div class="badges">
+                      <span class="badge">Wiek: 7</span>
+                    </div>
+                  </div>
+                  <div class="line"></div>
+
+                  <p><strong>Rok produkcji:</strong> 2025</p>
+                  <p><strong>Rodzaj:</strong> Fabularny animowany</p>
+                  <p><strong>Gatunek:</strong> Film dla dzieci</p>
+                  <p><strong>Produkcja:</strong> Belgia, Hiszpania, Niemcy</p>
+                  <p><strong>Reżyseria:</strong> Toby Schwarz</p>
+                  <p><strong>Dystrybutor:</strong> Kino Świat</p>
+                  <p><strong>Czas trwania:</strong> 76 min</p>
+                </div>
+
+                <div>
+                  <a href="img/heidi-ratuje-rysia.jpg" target="_blank" rel="noopener">
+                    <img class="poster-right" src="img/heidi-ratuje-rysia.jpg" alt="Plakat filmu Heidi ratuje rysia" loading="lazy">
+                  </a>
+                  <div class="posterHint">Plik: <b>heidi-ratuje-rysia.jpg</b></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+
+          <!-- 28.03.2026 18:00 - Podrabiani zakochani -->
+          <tr>
+            <td class="datecol">
+              <div class="datepill">28.03.2026</div><br>
+              <div class="time">godz. 18:00</div>
+            </td>
+
+            <td class="filmcol">
+              <div class="filmgrid">
+                <div>
+                  <div class="head">
+                    <h3>Podrabiani zakochani</h3>
+                    <div class="badges">
+                      <span class="badge">Wiek: 16</span>
+                    </div>
+                  </div>
+                  <div class="line"></div>
+
+                  <p><strong>Rok produkcji:</strong> 2023</p>
+                  <p><strong>Rodzaj:</strong> Fabularny</p>
+                  <p><strong>Gatunek:</strong> Komedia, Romans, Science fiction</p>
+                  <p><strong>Produkcja:</strong> USA</p>
+                  <p><strong>Reżyseria:</strong> Anthony Hines, Casper Christensen</p>
+                  <p><strong>Obsada:</strong> Jack Whitehall, Nicolas Rurherford, Paul Rust, Shailene Woodley</p>
+                  <p><strong>Dystrybutor:</strong> Best Film CO</p>
+                  <p><strong>Czas trwania:</strong> 89 min</p>
+                </div>
+
+                <div>
+                  <a href="img/podrabiani-zakochani.jpg" target="_blank" rel="noopener">
+                    <img class="poster-right" src="img/podrabiani-zakochani.jpg" alt="Plakat filmu Podrabiani zakochani" loading="lazy">
+                  </a>
+                  <div class="posterHint">Plik: <b>podrabiani-zakochani.jpg</b></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+</body>
+</html>
